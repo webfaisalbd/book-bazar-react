@@ -1,17 +1,29 @@
 import React from 'react';
 
-const Product = () => {
+const Product = (props) => {
+    const { name, img, category, stock, price, seller } = props.product || {};
+    // console.log(props.product);
     return (
-        <div class="card mb-3" style={{ "max-width": "540px" }}>
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="..." class="img-fluid rounded-start" alt="..." />
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div className='col-md-4 rounded mt-2'>
+            <div className="card mb-3" style={{ "maxWidth": "440px" }}>
+                <div className="row g-0">
+                    <div className="col-md-6">
+                        <img src={img} className="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div className="col-md-6">
+                        <div className="card-body">
+                            <h5 className="card-title fw-bold">{name}</h5>
+                            <p><span className='fw-bold'>Category: </span>{category}
+                                <br />
+                                <span className='fw-bold'>Seller: </span>{seller}
+                                <br />
+                                <span className='fw-bold'>Stock: </span>{stock} pieces
+                                <br />
+                                <span className='fw-bold'>Price: </span>${price}
+                            </p>
+                            <button onClick={() => props.handleAddProduct(props.product)} className='btn btn-success'><i className="fas fa-shopping-cart"></i> Buy Now</button>
+
+                        </div>
                     </div>
                 </div>
             </div>

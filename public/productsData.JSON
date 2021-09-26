@@ -1,0 +1,83 @@
+[
+    {
+        "key": "book001",
+        "name": "হাতে কলমে জাভাস্ক্রিপ্ট",
+        "category": "programming",
+        "price": 361,
+        "stock": 33,
+        "seller": "Book Bitan",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/e53af8191_202772.jpg"
+    },
+    {
+        "key": "book002",
+        "name": "The C Programming Language",
+        "category": "programming",
+        "price": 470,
+        "stock": 3,
+        "seller": "Nillkhet Book Somahar",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/517ck799YSL._SX368_BO1,204,203,200_.jpg"
+    },
+    {
+        "key": "book003",
+        "name": "হাবলুদের জন্য প্রোগ্রামিং",
+        "category": "programming",
+        "price": 210,
+        "stock": 25,
+        "seller": "Boi Ghor",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg"
+    },
+    {
+        "key": "book004",
+        "name": "হিমু মামা",
+        "category": "শিশু-কিশোর উপন্যাস",
+        "price": 132,
+        "stock": 17,
+        "seller": "Alor Poth",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/1c7a5245e_1208.jpg"
+    },
+    {
+        "key": "book005",
+        "name": "ঘরে বসে Spoken English",
+        "category": "English Grammar and Language Learning",
+        "price": 130,
+        "stock": 41,
+        "seller": "Book Bitan",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/d774abe23_206592.jpg"
+    },
+    {
+        "key": "book006",
+        "name": "The C Programming Language. 2nd Edition",
+        "category": "programming",
+        "price": 470,
+        "stock": 3,
+        "seller": "Nillkhet Book Somahar",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/517ck799YSL._SX368_BO1,204,203,200_.jpg"
+    },
+    {
+        "key": "book007",
+        "name": "হাবলুদের জন্য প্রোগ্রামিং",
+        "category": "programming",
+        "price": 210,
+        "stock": 25,
+        "seller": "Boi Ghor",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg"
+    },
+    {
+        "key": "book008",
+        "name": "হিমু মামা",
+        "category": "শিশু-কিশোর উপন্যাস",
+        "price": 132,
+        "stock": 17,
+        "seller": "Alor Poth",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/1c7a5245e_1208.jpg"
+    },
+    {
+        "key": "book009",
+        "name": "ঘরে বসে Spoken English",
+        "category": "English Grammar and Language Learning",
+        "price": 130,
+        "stock": 41,
+        "seller": "Book Bitan",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/d774abe23_206592.jpg"
+    }
+]
