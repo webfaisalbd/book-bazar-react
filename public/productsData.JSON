@@ -28,7 +28,7 @@
     },
     {
         "key": "book004",
-        "name": "হিমু মামা",
+        "name": "হিমু মামা উপন্যাস",
         "category": "শিশু-কিশোর উপন্যাস",
         "price": 132,
         "stock": 17,
@@ -37,47 +37,74 @@
     },
     {
         "key": "book005",
-        "name": "ঘরে বসে Spoken English",
-        "category": "English Grammar and Language Learning",
+        "name": "কম্পিউটার প্রোগ্রামিং ৩য়",
+        "category": "programming",
         "price": 130,
         "stock": 41,
         "seller": "Book Bitan",
-        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/d774abe23_206592.jpg"
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/c91ce3dc9_157644.jpg"
     },
     {
         "key": "book006",
-        "name": "The C Programming Language. 2nd Edition",
-        "category": "programming",
-        "price": 470,
-        "stock": 3,
-        "seller": "Nillkhet Book Somahar",
-        "img": "https://images-na.ssl-images-amazon.com/images/I/517ck799YSL._SX368_BO1,204,203,200_.jpg"
+        "name": "মিসির আলি সমগ্র ১",
+        "category": "উপন্যাস সমগ্র",
+        "price": 170,
+        "stock": 23,
+        "seller": "Rokomari Book Somahar",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/1d3988f5b104_56.gif"
     },
     {
         "key": "book007",
-        "name": "হাবলুদের জন্য প্রোগ্রামিং",
-        "category": "programming",
-        "price": 210,
-        "stock": 25,
-        "seller": "Boi Ghor",
-        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/00ea58560_112222.jpg"
+        "name": "এইচ এস সি ইংলিশ-১ম পত্র= পানি",
+        "category": "Compulsory Subject",
+        "price": 310,
+        "stock": 125,
+        "seller": "Saifur's Boi Ghor",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/2196fe122_150369.jpg"
     },
     {
         "key": "book008",
-        "name": "হিমু মামা",
-        "category": "শিশু-কিশোর উপন্যাস",
-        "price": 132,
-        "stock": 17,
-        "seller": "Alor Poth",
-        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/1c7a5245e_1208.jpg"
+        "name": "পাসপোর্ট টু গ্রামার",
+        "category": "Bangla, English and General Knowledge",
+        "price": 332,
+        "stock": 27,
+        "seller": "Pathshala Book House",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/b41299f34_117676.jpg"
     },
     {
         "key": "book009",
-        "name": "ঘরে বসে Spoken English",
-        "category": "English Grammar and Language Learning",
-        "price": 130,
+        "name": "অ্যাডভান্সড জাভা প্রোগ্রামিং",
+        "category": "programming",
+        "price": 383,
         "stock": 41,
         "seller": "Book Bitan",
-        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/d774abe23_206592.jpg"
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/1434809b0_200057.jpg"
+    },
+    {
+        "key": "book010",
+        "name": "ভাল্লাগে না",
+        "category": "ছাত্রজীবন উন্নয়ন",
+        "price": 225,
+        "stock": 31,
+        "seller": "Alo Ghor",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/9ec6d9c0c_177051.jpg"
+    },
+    {
+        "key": "book011",
+        "name": "হাতেকলমে মেশিন লার্নিং ",
+        "category": "programming",
+        "price": 340,
+        "stock": 71,
+        "seller": "Adarsha",
+        "img": "https://m.media-amazon.com/images/I/51G1RTgZedL.jpg"
+    },
+    {
+        "key": "book012",
+        "name": "পাইথন দিয়ে প্রোগ্রামিং শেখা",
+        "category": "programming",
+        "price": 425,
+        "stock": 61,
+        "seller": "Dimik",
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/dfb303496d64_143309.jpg"
     }
 ]
