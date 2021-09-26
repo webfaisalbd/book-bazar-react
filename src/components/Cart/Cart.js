@@ -1,17 +1,22 @@
+// import file
 import React from 'react';
 
 const Cart = (props) => {
+    // use Destructuring 
     const { cart } = props || {}
 
     // reduced because array of 
     const totalReducer = (previousValue, currentValue) => previousValue + currentValue.price;
+    // calculate total 
     const total = cart.reduce(totalReducer, 0).toFixed(2);
+    // calculate tax 
     const tax = (0.1 * total).toFixed(2);
+    // calculate final price 
     const finalPrice = parseFloat(total) + parseFloat(tax);
 
     // console.log(Cart);
     return (
-
+        // show output for calculation 
         <div className="card text-white bg-secondary mt-3 mb-3 p-2" style={{ "maxWidth": "18rem" }}>
             <div className="card-header"><h3>Add to Cart</h3></div>
 

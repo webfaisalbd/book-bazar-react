@@ -1,11 +1,14 @@
+// import file 
 import React from 'react';
 import './Header.css'
 const Header = () => {
     return (
-
+        // title 
         <div className='title-style'>
             <h1 className='text-center fw-bold'>BOOK BAZAR</h1>
+            {/* budget  */}
             <h4 className='text-center'>Total Budget for Buying Book: $2000</h4>
+            {/* nav bar  */}
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     <a className="navbar-brand fw-bold" href="/navBar">Home</a>
