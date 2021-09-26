@@ -21,7 +21,15 @@ const Cart = (props) => {
             <h5><i className="fas fa-hand-holding-usd"></i>Total Amount: ${finalPrice}</h5>
             <ul>
                 {
-                    cart.map(product => <li>{product.name}</li>)
+                    cart.map(product => <div>
+                        <div class="card border-primary mb-1" style={{ "maxWidth": "14rem" }}>
+                            <div class="card-body text-primary d-flex">
+                                <img src={product.img} className="img-fluid w-25 rounded-start" alt="..." />
+                                <p class="card-text">{product.name}</p>
+                            </div>
+                        </div>
+
+                    </div>)
                 }
             </ul>
 
