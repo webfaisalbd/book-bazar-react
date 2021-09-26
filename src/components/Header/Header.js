@@ -1,4 +1,4 @@
-// import file 
+// import files 
 import React from 'react';
 import './Header.css'
 const Header = () => {
