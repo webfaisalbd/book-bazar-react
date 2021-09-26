@@ -12,13 +12,13 @@ const Cart = (props) => {
     // console.log(Cart);
     return (
 
-        <div class="card text-white bg-secondary mt-3 mb-3 p-2" style={{ "maxWidth": "18rem" }}>
-            <div class="card-header"><h3>Add to Cart</h3></div>
+        <div className="card text-white bg-secondary mt-3 mb-3 p-2" style={{ "maxWidth": "18rem" }}>
+            <div className="card-header"><h3>Add to Cart</h3></div>
 
-            <h5>{cart.length}</h5>
-            <h5>Book Price: {total}</h5>
-            <h5>Tax: {tax}</h5>
-            <h5>Final Price{finalPrice}</h5>
+            <h5><i className="fas fa-book-reader"></i> Books Added: {cart.length}</h5>
+            <h5><i className="fas fa-money-bill-alt"></i> Book Price: ${total}</h5>
+            <h5><i className="far fa-money-bill-alt"></i> Tax: ${tax}</h5>
+            <h5><i className="fas fa-hand-holding-usd"></i>Total Amount: ${finalPrice}</h5>
             <ul>
                 {
                     cart.map(product => <li>{product.name}</li>)
